@@ -6,7 +6,7 @@ srv_path="/srv/minecraft"
 backup_files="$srv_path/world"
 
 #Backup folder
-dest="/home/anew/minecraft-backlogger/backups"
+dest="$HOME/minecraft-backlogger/backups"
 
 #Create archive filename
 day=`date +%F`
