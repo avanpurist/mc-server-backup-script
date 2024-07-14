@@ -5,5 +5,5 @@
 exceptions="! -name "20??-??-01-00:0?*" ! -name "20??-??-08-00:0?*" ! -name "20??-??-15-00:0?*" ! -name "20??-??-22-00:0?*" ! -name "20??-??-29-00:0?*""
 
 #Remove all .tar.gz files older than a week apart from exceptions
-find "/home/anew/minecraft-backlogger/backups" -name "*.tar.gz" $exceptions -mtime +7 -exec rm {} \; 
+find "$HOME/minecraft-backlogger/backups" -name "*.tar.gz" $exceptions -mtime +7 -exec rm {} \; 
 
